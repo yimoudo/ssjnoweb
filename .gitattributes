@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>??</title>
+</head>
+<style type="text/css">
+    .main{position:absolute;top:40px;width: 500px;height: 30px;margin-left: 250px;}
+    .menu{background-color: #0099E5; width:80px;height: 25px;float: left;margin-right: 0.5px;text-align: center}
+    .index{background-color: #0099E5; width: 80px;height: 25px;float: left;margin-right: 0.5px;margin-left:0.5px;text-align: center}
+    .p{color: white;line-height: 22px;}
+    .game{position:absolute;top:140px;width: 200px;height:200px;margin-left: 1%;}
+    .rainbow-radial-gradient{
+        position: absolute;
+        width: 110%;
+        height: 110%;
+        background-image: -webkit-linear-gradient(top,#3366CC 50%,#3399FF 100%);
+    }
+</style>
+<body bgcolor="#3366FF">
+<div class="rainbow-radial-gradient"></div>
+<main class="main">
+    <div class="index"><div class="p" style="color: white">??</div></div>
+    <div class="index"><div class="p" style="color: white">??</div></div>
+    <div class="index"><div class="p" style="color: white">??</div></div>
+    <div class="index"><div class="p" style="color: white">??</div></div>
+    <div class="index"><div class="p" style="color: white">??</div></div>
+</main>
+<game class="game">
+    <img src="game/header.jpg" width="368" height="172">
+</game>
+</body>
+</html>
